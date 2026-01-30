@@ -103,6 +103,17 @@ int main(void)
 
   /* USER CODE BEGIN SysInit */
 
+  RCC_PeriphCLKInitTypeDef PeriphClkInitStruct = {0};
+    PeriphClkInitStruct.PeriphClockSelection = RCC_PERIPHCLK_I2S;
+    PeriphClkInitStruct.PLLI2S.PLLI2SN = 129;
+    PeriphClkInitStruct.PLLI2S.PLLI2SR = 3;
+    PeriphClkInitStruct.PLLI2S.PLLI2SQ = 2; // これも忘れずに
+
+    if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInitStruct) != HAL_OK)
+    {
+      Error_Handler();
+    }
+
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
