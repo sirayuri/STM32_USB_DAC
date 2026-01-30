@@ -12,12 +12,6 @@
 ../USB_DEVICE/Target/usbd_conf.c:310:6:HAL_PCD_ConnectCallback	0	static
 ../USB_DEVICE/Target/usbd_conf.c:324:6:HAL_PCD_DisconnectCallback	0	static
 ../USB_DEVICE/Target/usbd_conf.c:339:20:USBD_LL_Init	8	static
-../USB_DEVICE/Target/usbd_conf.c:533:9:USBD_LL_IsStallEP	0	static
-../USB_DEVICE/Target/usbd_conf.c:611:10:USBD_LL_GetRxDataSize	0	static
-../USB_DEVICE/Target/usbd_conf.c:637:7:USBD_static_malloc	0	static
-../USB_DEVICE/Target/usbd_conf.c:648:6:USBD_static_free	0	static
-../USB_DEVICE/Target/usbd_conf.c:658:6:USBD_LL_Delay	0	static
-../USB_DEVICE/Target/usbd_conf.c:668:20:USBD_Get_USB_Status	0	static
 ../USB_DEVICE/Target/usbd_conf.c:389:20:USBD_LL_DeInit	8	static
 ../USB_DEVICE/Target/usbd_conf.c:406:20:USBD_LL_Start	8	static
 ../USB_DEVICE/Target/usbd_conf.c:423:20:USBD_LL_Stop	8	static
@@ -26,6 +20,12 @@
 ../USB_DEVICE/Target/usbd_conf.c:479:20:USBD_LL_FlushEP	8	static
 ../USB_DEVICE/Target/usbd_conf.c:497:20:USBD_LL_StallEP	8	static
 ../USB_DEVICE/Target/usbd_conf.c:515:20:USBD_LL_ClearStallEP	8	static
+../USB_DEVICE/Target/usbd_conf.c:533:9:USBD_LL_IsStallEP	0	static
 ../USB_DEVICE/Target/usbd_conf.c:553:20:USBD_LL_SetUSBAddress	8	static
 ../USB_DEVICE/Target/usbd_conf.c:573:20:USBD_LL_Transmit	8	static
 ../USB_DEVICE/Target/usbd_conf.c:593:20:USBD_LL_PrepareReceive	8	static
+../USB_DEVICE/Target/usbd_conf.c:611:10:USBD_LL_GetRxDataSize	0	static
+../USB_DEVICE/Target/usbd_conf.c:637:7:USBD_static_malloc	0	static
+../USB_DEVICE/Target/usbd_conf.c:648:6:USBD_static_free	0	static
+../USB_DEVICE/Target/usbd_conf.c:658:6:USBD_LL_Delay	0	static
+../USB_DEVICE/Target/usbd_conf.c:668:20:USBD_Get_USB_Status	0	static

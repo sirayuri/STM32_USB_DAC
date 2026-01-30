@@ -1,13 +1,12 @@
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:1334:13:HAL_ETH_RxLinkCallback	1
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:3122:17:ETH_Prepare_Tx_Descriptors	14
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:3122:17:ETH_Prepare_Tx_Descriptors	16
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:2819:13:ETH_SetMACConfig	1
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:2877:13:ETH_SetDMAConfig	1
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:2805:13:ETH_FlushTransmitFIFO	1
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:1317:13:HAL_ETH_RxAllocateCallback	1
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:1202:13:ETH_UpdateDescriptor	7
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:1436:13:HAL_ETH_TxFreeCallback	1
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:472:13:HAL_ETH_MspInit	1
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:342:19:HAL_ETH_Init	9
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:342:19:HAL_ETH_Init	7
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:487:13:HAL_ETH_MspDeInit	1
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:439:19:HAL_ETH_DeInit	1
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:714:19:HAL_ETH_Start	2
@@ -16,7 +15,7 @@
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:892:19:HAL_ETH_Stop_IT	3
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:962:19:HAL_ETH_Transmit	10
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:1037:19:HAL_ETH_Transmit_IT	6
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:1089:19:HAL_ETH_ReadData	14
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:1089:19:HAL_ETH_ReadData	18
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:1283:19:HAL_ETH_RegisterRxAllocateCallback	2
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:1304:19:HAL_ETH_UnRegisterRxAllocateCallback	1
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:1353:19:HAL_ETH_RegisterRxLinkCallback	2
@@ -45,7 +44,7 @@
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:2596:6:HAL_ETH_SetRxVLANIdentifier	2
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:2624:6:HAL_ETH_EnterPowerDownMode	1
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:2642:6:HAL_ETH_ExitPowerDownMode	2
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:2679:19:HAL_ETH_SetWakeUpFilter	3
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:2679:19:HAL_ETH_SetWakeUpFilter	4
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:2728:22:HAL_ETH_GetState	1
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:2739:10:HAL_ETH_GetError	1
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:2750:10:HAL_ETH_GetDMAError	1

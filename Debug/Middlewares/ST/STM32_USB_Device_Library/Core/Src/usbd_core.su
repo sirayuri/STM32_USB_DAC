@@ -7,7 +7,7 @@
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:465:20:USBD_SetClassConfig	0	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:505:20:USBD_ClrClassConfig	8	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:546:20:USBD_LL_SetupStage	16	static
-../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:586:20:USBD_LL_DataOutStage	16	static
+../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:586:20:USBD_LL_DataOutStage	8	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:684:20:USBD_LL_DataInStage	16	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:777:20:USBD_LL_Reset	24	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:845:20:USBD_LL_SetSpeed	0	static
@@ -20,5 +20,5 @@
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:1001:20:USBD_LL_DevDisconnected	8	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:1046:9:USBD_CoreFindIF	0	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:1086:9:USBD_CoreFindEP	0	static
-../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:1157:7:USBD_GetEpDesc	8	static
+../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:1157:7:USBD_GetEpDesc	0	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:1198:25:USBD_GetNextDesc	0	static
